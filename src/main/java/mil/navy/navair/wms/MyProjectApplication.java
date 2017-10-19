@@ -21,4 +21,13 @@ public class MyProjectApplication {
 			//else Do Something
 		}
 	}
+	
+	/**
+	 * Empty synchronized.
+	 */
+	private void emptySynchronized() {
+		synchronized (this) {
+			// Forgot implementation
+		}
+	}	
 }
