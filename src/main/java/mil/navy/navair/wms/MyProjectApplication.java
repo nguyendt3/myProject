@@ -9,4 +9,16 @@ public class MyProjectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MyProjectApplication.class, args);
 	}
+
+	/**
+	 * Incorrect assignment in if condition.
+	 */
+	private static void incorrectAssignmentInIfCondition() {
+		boolean value = false;
+		if (value = true) {
+			//do Something
+		} else {
+			//else Do Something
+		}
+	}
 }
